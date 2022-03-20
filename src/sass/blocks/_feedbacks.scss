@@ -1,0 +1,44 @@
+.feedbacks {
+    min-height: 900px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+
+    &__header {
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        margin-top: 60px;
+        display: flex;
+
+        img {
+            display: block;
+            margin-right: 60px;
+            width: 169px;
+            height: 169px;
+        }
+    }
+
+    &__text {
+        &_header {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        &_descr {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    }
+
+
+    .value {
+        font-size: 14px;
+        color: #646464;
+        font-weight: 500;
+
+    }
+}
