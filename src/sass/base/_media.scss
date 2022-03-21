@@ -293,6 +293,10 @@
         }
     }
 
+    .feed-form {
+        width: 245px;
+    }
+
     .advantages {
         &__header {
             font-size: 27px;
@@ -360,6 +364,13 @@
                 height: 30px;
                 margin: 0 8px;
             }
+        }
+    }
+
+    .overlay {
+        .modal {
+            width: 323px;
+
         }
     }
 
